@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "isolatedModules": false,
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": ["**/src/**/*"],
+  "exclude": ["dist/**/*"]
+}
